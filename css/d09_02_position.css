@@ -1,0 +1,34 @@
+/*d09_02_postion*/
+body{height: 5000px;}
+#wrap{width:700px; height: 500px; background-color: #eb0505;
+margin: 300px auto;}
+h1{width: 100%; font-size: 1.5rem; font-weight: bold; background-color: #188b8b;
+text-align: center;}
+.position_box{width: 500px; height: 400px; background-color:#faa; margin: 50px auto; }
+.position_box>li{width:100px; height: 100px; float:left;}
+        .static{background-color:#884343;}
+        .fixed{background-color:#014e34;}
+        .absolute{background-color:#aa0597;}
+        .relative{background-color:#9b0a0a;}
+        .no_position{background-color:#27c6c0;}
+/*============================================
+
+static:기본
+fixed:화면고정(스크롤 사용해도 변화가 없다.)
+absolute:엄마가 필요하다(기본엄마 relative)엄마가 없으면 고정이 안됨.
+relative:엄마의 기본
+/*============================================
+z-index:레이어의개념
+top
+left
+right
+bottom 위치를 잡아주기 위한 형태(margin과 헷갈리면 안됨!!!)
+!!!!position은 함부로 많이 사용하지 않는다. 추후에 보정하기 힘들다~
+*/
+
+.position_box{position: relative;}
+.static{position:static; z-index:-1000; top:0; }
+.fixed{position:fixed; bottom:0; z-index: 200; left:500px}
+.absolute{position: absolute; right: 0; bottom:0; z-index: 100;}
+.relative{position:relative; top: 100px; left: 0; z-index: 500;}
+.no_position{}

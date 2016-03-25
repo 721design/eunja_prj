@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8 /">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!--[if lte IE9>
+    
+    <![endif]-->
+    <title>Document</title>
+    <style type="text/css">
+/*        reset css */
+        *{margin: 0; padding: 0; border: 0; vertical-align: top;}
+        h1, h2, h3, h4, h5{font-size:100%}
+        ul, ol, li{list-style: none;}
+            .clearfix::after, clearfix::before{content:''; clear:both; display:block;}
+        /*
+        ---------------------------------------------------------------
+        margin??  외부 여백 공간을 가지는 여백
+        margin: 하나둘*/
+        #wrap{width: 900px; height: 800px; background-color: #1d7171; margin: 0 auto; padding-top:20px;}
+        h1{width: 100%; height: 30px; background-color: #f5dce5; margin-top:20px;}
+        ul{width: 100%; border: 3px solid; background-color: #62c6a4;}
+        li{width: 100px; height: 100px; text-align: center; line-height: 100px; float:left;}
+
+        .box_06{background-color: #955908; padding: 10px;}
+        .box_07{background-color: #7e8808;padding: 10px 20px;}
+        .box_08{background-color: #6ebcf5;padding: 10px 20px 30px;}
+        .box_09{background-color: #db7474; padding: 10px 20px 30px 40px;}
+        .box_10{background-color: #c1b385; padding-left: 40px;}
+        #sub_box{width: 100%; height: 50px; background-color: #73e;}
+    </style>
+    <script type="text/javascript">
+    
+    </script>
+</head>
+<body>
+   <div id="wrap">
+       <h1>margin에대해.....</h1>
+       <div id="clearfix">
+                   <ul class="clearfix">
+            <li class="box_06">paddin하나</li>
+            <li class="box_07">paddin둘</li>
+            <li class="box_08">paddin셋</li>
+            <li class="box_09">paddin넷</li>
+            <li class="box_10">paddin일부</li>
+        </ul>
+           
+       </div>
+   </div><!--//#wrap-->
+    
+</body>
+</html>

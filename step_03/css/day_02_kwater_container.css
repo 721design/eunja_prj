@@ -1,0 +1,47 @@
+/* day_02_kwater_container.css */
+
+/* ********************#container******************** */
+#wrap>#container {
+    width: 946px;
+    height: 804px;
+    background-color: #831;
+}
+
+#lnb {
+    width: 100%;
+    height: 100px;
+}
+
+#lnb>ul {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+#container>ul {
+    width: 100%;
+}
+
+.content_01 {
+    height: 168px;
+    margin-top: 26px;
+    background-color: #aca;
+}
+
+.content_02 {
+    height: 194px;
+    margin-top: 48px;
+    background-color: #fca;
+}
+
+.content_03 {
+    height: 76px;
+    margin-top: 7px;
+    background-color: #acf;
+}
+
+.content_menu {
+    height: 110px;
+    margin-top: 37px;
+    background-color: #fcf;
+}

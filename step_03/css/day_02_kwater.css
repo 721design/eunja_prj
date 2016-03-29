@@ -1,0 +1,19 @@
+/* day_02_kwater.css */
+
+/*@i 탭*/
+
+@import url("./day_02_kwater_wrap.css");
+@import url("./day_02_kwater_header.css");
+@import url("./day_02_kwater_banner.css");
+@import url("./day_02_kwater_container.css");
+@import url("./day_02_kwater_footer.css");
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#wrap>div {
+    width: 960px;
+    margin: 0 auto;
+}

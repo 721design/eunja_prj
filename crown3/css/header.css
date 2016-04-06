@@ -1,0 +1,4 @@
+/* header.css */
+/* -- #header.css ------------------------------------------------*/
+header{width: 100%; height: 74px; background-color: #a54;}
+header>#menu_box{width: 960px; height: 100%; background-color: #5ae; margin:0 auto;}
